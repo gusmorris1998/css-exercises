@@ -36,7 +36,7 @@ button {
   display: block;
   background: white;
   border: 1px solid #eee;
-  /* Not real sure why setting margins here center aligns it */
+  /* Not real sure why setting margins here center aligns */
   margin: 0 auto;
   padding: 8px 24px;
 }
