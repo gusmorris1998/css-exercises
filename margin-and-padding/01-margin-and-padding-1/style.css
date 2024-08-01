@@ -1,21 +1,28 @@
 body {
+  display: block;
   max-width: 600px;
   margin: 0 auto;
+}
+
+/* Grouping Selectors */
+.one,
+.three {
+  padding: 32px
 }
 
 .one {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  /* padding: 25px; now grouped */
+  margin: 10px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;
 }
 
 .three {
@@ -23,6 +30,8 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  /* padding: 20px; now grouped */
+  margin-left: auto;
+  /* margin-right: 0px; */
+
 }
