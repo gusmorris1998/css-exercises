@@ -80,6 +80,7 @@ button.cancel {
 .modal-top-row {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 3px;
 }
 
 .button-layer {
